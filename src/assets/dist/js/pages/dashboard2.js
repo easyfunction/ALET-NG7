@@ -1,4 +1,4 @@
-$(function () {
+function dashboard2 () {
 
   'use strict';
 
@@ -271,4 +271,6 @@ $(function () {
       spotColor: $this.data('spotcolor')
     });
   });
-});
+}
+
+export {dashboard2}
