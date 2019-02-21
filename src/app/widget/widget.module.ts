@@ -1,20 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { DashboardRoutingModule } from './dashboard-routing.module';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { WidgetRoutingModule } from './widget-routing.module';
+import { WidgetComponent } from './widget/widget.component';
 import { LayoutModule } from 'src/app/layout/layout.module';
 import { DirectivesModule } from 'src/app/directives/directives.module';
 
 @NgModule({
-  declarations: [
-    DashboardComponent
-  ],
+  declarations: [WidgetComponent],
   imports: [
     CommonModule,
-    DashboardRoutingModule,
+    WidgetRoutingModule,
     LayoutModule,
     DirectivesModule
   ]
 })
-export class DashboardModule { }
+export class WidgetModule { }

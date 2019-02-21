@@ -352,3 +352,4 @@ $(function () {
 
     $('[data-toggle="tooltip"]').tooltip()
 })
+console.log("demo.js");
