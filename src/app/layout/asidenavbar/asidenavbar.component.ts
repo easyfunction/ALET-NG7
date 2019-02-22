@@ -9,7 +9,6 @@ export class AsidenavbarComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }

@@ -3,6 +3,7 @@ import { Directive, Input } from '@angular/core';
 @Directive({
   selector: '[appLoadscript]'
 })
+
 export class LoadscriptDirective {
 
   @Input('appLoadscript') script: any;

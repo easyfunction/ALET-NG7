@@ -14,8 +14,9 @@ export class DashboardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    //window.dispatchEvent(new Event('resize'));
-    
+    window.dispatchEvent(new Event('load'));
+    window.dispatchEvent(new Event('resize'));
+
     $(dashboard2);
     document.body.className = 'skin-blue sidebar-mini';
   }

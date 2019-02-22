@@ -6,12 +6,10 @@ import { AppComponent } from './app.component';
 import { LoginModule } from 'src/app/login/login.module';
 import { DashboardModule } from 'src/app/dashboard/dashboard.module';
 import { WidgetModule } from 'src/app/widget/widget.module';
-import { LoadScriptDirective } from './load-script.directive';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LoadScriptDirective
+    AppComponent
   ],
   imports: [
     BrowserModule,
