@@ -6,9 +6,11 @@ import { ChartjsComponent } from './chartjs/chartjs.component';
 import { LayoutModule } from '../layout/layout.module';
 import { DirectivesModule } from '../directives/directives.module';
 import { MorrisComponent } from './morris/morris.component';
+import { FlotComponent } from './flot/flot.component';
+import { InlineChartsComponent } from './inline-charts/inline-charts.component';
 
 @NgModule({
-  declarations: [ChartjsComponent, MorrisComponent],
+  declarations: [ChartjsComponent, MorrisComponent, FlotComponent, InlineChartsComponent],
   imports: [
     CommonModule,
     ChartsRoutingModule,

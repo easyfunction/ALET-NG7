@@ -5,6 +5,8 @@ import { DashboardComponent } from 'src/app/dashboard/dashboard/dashboard.compon
 import { LoginComponent } from 'src/app/login/login/login.component';
 import { ChartjsComponent } from './charts/chartjs/chartjs.component';
 import { MorrisComponent } from './charts/morris/morris.component';
+import { FlotComponent } from './charts/flot/flot.component';
+import { InlineChartsComponent } from './charts/inline-charts/inline-charts.component';
 
 const routes: Routes = [
   {
@@ -26,6 +28,12 @@ const routes: Routes = [
   }, {
     "path": "charts/morris",
     "component": MorrisComponent
+  }, {
+    "path": "charts/flot",
+    "component": FlotComponent
+  }, {
+    "path": "charts/inlineCharts",
+    "component": InlineChartsComponent
   }
 ];
 

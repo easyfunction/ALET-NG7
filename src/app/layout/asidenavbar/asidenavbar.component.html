@@ -99,12 +99,12 @@
             <a routerLink="/charts/morris">
               <i class="fa fa-circle-o"></i> Morris</a>
           </li>
-          <li>
-            <a href="pages/charts/flot.html">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/charts/flot">
               <i class="fa fa-circle-o"></i> Flot</a>
           </li>
-          <li>
-            <a href="pages/charts/inline.html">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/charts/inlineCharts">
               <i class="fa fa-circle-o"></i> Inline charts</a>
           </li>
         </ul>
