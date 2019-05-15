@@ -4,6 +4,7 @@ import { WidgetComponent } from 'src/app/widget/widget/widget.component';
 import { DashboardComponent } from 'src/app/dashboard/dashboard/dashboard.component';
 import { LoginComponent } from 'src/app/login/login/login.component';
 import { ChartjsComponent } from './charts/chartjs/chartjs.component';
+import { MorrisComponent } from './charts/morris/morris.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,9 @@ const routes: Routes = [
   }, {
     "path": "charts/chartjs",
     "component": ChartjsComponent
+  }, {
+    "path": "charts/morris",
+    "component": MorrisComponent
   }
 ];
 

@@ -5,9 +5,10 @@ import { ChartsRoutingModule } from './charts-routing.module';
 import { ChartjsComponent } from './chartjs/chartjs.component';
 import { LayoutModule } from '../layout/layout.module';
 import { DirectivesModule } from '../directives/directives.module';
+import { MorrisComponent } from './morris/morris.component';
 
 @NgModule({
-  declarations: [ChartjsComponent],
+  declarations: [ChartjsComponent, MorrisComponent],
   imports: [
     CommonModule,
     ChartsRoutingModule,
