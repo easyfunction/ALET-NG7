@@ -21,7 +21,6 @@ $(function () {
         $pushMenu = $('[data-toggle="push-menu"]').data('lte.pushmenu')
         $controlSidebar = $('[data-toggle="control-sidebar"]').data('lte.controlsidebar')
         $layout = $('body').data('lte.layout')
-        console.log("reinit variables");
     })
 
     /**
@@ -353,4 +352,3 @@ $(function () {
 
     $('[data-toggle="tooltip"]').tooltip()
 })
-console.log("demo.js");
