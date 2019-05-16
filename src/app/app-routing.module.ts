@@ -8,6 +8,11 @@ import { MorrisComponent } from './charts/morris/morris.component';
 import { FlotComponent } from './charts/flot/flot.component';
 import { InlineChartsComponent } from './charts/inline-charts/inline-charts.component';
 import { GeneralComponent } from './ui/general/general.component';
+import { IconsComponent } from './ui/icons/icons.component';
+import { ButtonsComponent } from './ui/buttons/buttons.component';
+import { SlidersComponent } from './ui/sliders/sliders.component';
+import { TimelineComponent } from './ui/timeline/timeline.component';
+import { ModalsComponent } from './ui/modals/modals.component';
 
 const routes: Routes = [
   {
@@ -38,6 +43,21 @@ const routes: Routes = [
   }, {
     "path": "ui/general",
     "component": GeneralComponent
+  }, {
+    "path": "ui/icons",
+    "component": IconsComponent
+  }, {
+    "path": "ui/buttons",
+    "component": ButtonsComponent
+  }, {
+    "path": "ui/sliders",
+    "component": SlidersComponent
+  }, {
+    "path": "ui/timeline",
+    "component": TimelineComponent
+  }, {
+    "path": "ui/modals",
+    "component": ModalsComponent
   }
 ];
 
