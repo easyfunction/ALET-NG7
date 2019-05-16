@@ -7,6 +7,7 @@ import { LoginModule } from 'src/app/login/login.module';
 import { DashboardModule } from 'src/app/dashboard/dashboard.module';
 import { WidgetModule } from 'src/app/widget/widget.module';
 import { ChartsModule } from './charts/charts.module';
+import { UiModule } from './ui/ui.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ChartsModule } from './charts/charts.module';
     LoginModule,
     DashboardModule,
     WidgetModule,
-    ChartsModule
+    ChartsModule,
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]

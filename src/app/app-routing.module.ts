@@ -7,6 +7,7 @@ import { ChartjsComponent } from './charts/chartjs/chartjs.component';
 import { MorrisComponent } from './charts/morris/morris.component';
 import { FlotComponent } from './charts/flot/flot.component';
 import { InlineChartsComponent } from './charts/inline-charts/inline-charts.component';
+import { GeneralComponent } from './ui/general/general.component';
 
 const routes: Routes = [
   {
@@ -34,6 +35,9 @@ const routes: Routes = [
   }, {
     "path": "charts/inlineCharts",
     "component": InlineChartsComponent
+  }, {
+    "path": "ui/general",
+    "component": GeneralComponent
   }
 ];
 

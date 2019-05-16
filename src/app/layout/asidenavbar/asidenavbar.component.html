@@ -109,7 +109,7 @@
           </li>
         </ul>
       </li>
-      <li class="treeview">
+      <li class="treeview" routerLinkActive="active menu-open" [routerLinkActiveOptions]="{exact: true}">
         <a href="#">
           <i class="fa fa-laptop"></i>
           <span>UI Elements</span>
@@ -118,8 +118,8 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li>
-            <a href="pages/UI/general.html">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/ui/general">
               <i class="fa fa-circle-o"></i> General</a>
           </li>
           <li>
