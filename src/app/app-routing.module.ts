@@ -13,6 +13,9 @@ import { ButtonsComponent } from './ui/buttons/buttons.component';
 import { SlidersComponent } from './ui/sliders/sliders.component';
 import { TimelineComponent } from './ui/timeline/timeline.component';
 import { ModalsComponent } from './ui/modals/modals.component';
+import { GeneralFormComponent } from './forms/general-form/general-form.component';
+import { AdvancedFormComponent } from './forms/advanced-form/advanced-form.component';
+import { EditorFormComponent } from './forms/editor-form/editor-form.component';
 
 const routes: Routes = [
   {
@@ -58,6 +61,15 @@ const routes: Routes = [
   }, {
     "path": "ui/modals",
     "component": ModalsComponent
+  }, {
+    "path": "forms/general",
+    "component": GeneralFormComponent
+  }, {
+    "path": "forms/advanced",
+    "component": AdvancedFormComponent
+  }, {
+    "path": "forms/editors",
+    "component": EditorFormComponent
   }
 ];
 

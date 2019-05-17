@@ -8,6 +8,7 @@ import { DashboardModule } from 'src/app/dashboard/dashboard.module';
 import { WidgetModule } from 'src/app/widget/widget.module';
 import { ChartsModule } from './charts/charts.module';
 import { UiModule } from './ui/ui.module';
+import { FormsModule } from './forms/forms.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UiModule } from './ui/ui.module';
     DashboardModule,
     WidgetModule,
     ChartsModule,
-    UiModule
+    UiModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
