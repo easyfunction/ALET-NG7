@@ -144,7 +144,7 @@
           </li>
         </ul>
       </li>
-      <li class="treeview">
+      <li class="treeview" routerLinkActive="active menu-open" [routerLinkActiveOptions]="{exact: true}">
         <a href="#">
           <i class="fa fa-edit"></i>
           <span>Forms</span>
@@ -153,21 +153,21 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li>
-            <a href="pages/forms/general.html">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/forms/general">
               <i class="fa fa-circle-o"></i> General Elements</a>
           </li>
-          <li>
-            <a href="pages/forms/advanced.html">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/forms/advanced">
               <i class="fa fa-circle-o"></i> Advanced Elements</a>
           </li>
-          <li>
-            <a href="pages/forms/editors.html">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/forms/editors">
               <i class="fa fa-circle-o"></i> Editors</a>
           </li>
         </ul>
       </li>
-      <li class="treeview">
+      <li class="treeview" routerLinkActive="active menu-open" [routerLinkActiveOptions]="{exact: true}">
         <a href="#">
           <i class="fa fa-table"></i>
           <span>Tables</span>
@@ -176,18 +176,18 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li>
-            <a href="pages/tables/simple.html">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/tables/simple">
               <i class="fa fa-circle-o"></i> Simple tables</a>
           </li>
-          <li>
-            <a href="pages/tables/data.html">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/tables/data">
               <i class="fa fa-circle-o"></i> Data tables</a>
           </li>
         </ul>
       </li>
-      <li>
-        <a href="pages/calendar.html">
+      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a routerLink="/calendar">
           <i class="fa fa-calendar"></i>
           <span>Calendar</span>
           <span class="pull-right-container">
@@ -196,8 +196,8 @@
           </span>
         </a>
       </li>
-      <li>
-        <a href="pages/mailbox/mailbox.html">
+      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a routerLink="/mailbox/mailbox">
           <i class="fa fa-envelope"></i>
           <span>Mailbox</span>
           <span class="pull-right-container">
