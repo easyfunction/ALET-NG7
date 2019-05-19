@@ -18,6 +18,7 @@ import { AdvancedFormComponent } from './forms/advanced-form/advanced-form.compo
 import { EditorFormComponent } from './forms/editor-form/editor-form.component';
 import { SimpleTableComponent } from './tables/simple-table/simple-table.component';
 import { DataTableComponent } from './tables/data-table/data-table.component';
+import { CalendarComponent } from './calendar/calendar/calendar.component';
 
 const routes: Routes = [
   {
@@ -78,6 +79,9 @@ const routes: Routes = [
   }, {
     "path": "tables/data",
     "component": DataTableComponent
+  }, {
+    "path": "calendar/calendar",
+    "component": CalendarComponent
   }
 ];
 

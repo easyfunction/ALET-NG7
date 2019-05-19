@@ -10,6 +10,7 @@ import { ChartsModule } from './charts/charts.module';
 import { UiModule } from './ui/ui.module';
 import { FormsModule } from './forms/forms.module';
 import { TablesModule } from './tables/tables.module';
+import { CalendarModule } from './calendar/calendar.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TablesModule } from './tables/tables.module';
     ChartsModule,
     UiModule,
     FormsModule,
-    TablesModule
+    TablesModule,
+    CalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
