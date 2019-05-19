@@ -9,6 +9,7 @@ import { WidgetModule } from 'src/app/widget/widget.module';
 import { ChartsModule } from './charts/charts.module';
 import { UiModule } from './ui/ui.module';
 import { FormsModule } from './forms/forms.module';
+import { TablesModule } from './tables/tables.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule } from './forms/forms.module';
     WidgetModule,
     ChartsModule,
     UiModule,
-    FormsModule
+    FormsModule,
+    TablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

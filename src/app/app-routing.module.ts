@@ -16,6 +16,8 @@ import { ModalsComponent } from './ui/modals/modals.component';
 import { GeneralFormComponent } from './forms/general-form/general-form.component';
 import { AdvancedFormComponent } from './forms/advanced-form/advanced-form.component';
 import { EditorFormComponent } from './forms/editor-form/editor-form.component';
+import { SimpleTableComponent } from './tables/simple-table/simple-table.component';
+import { DataTableComponent } from './tables/data-table/data-table.component';
 
 const routes: Routes = [
   {
@@ -70,6 +72,12 @@ const routes: Routes = [
   }, {
     "path": "forms/editors",
     "component": EditorFormComponent
+  }, {
+    "path": "tables/simple",
+    "component": SimpleTableComponent
+  }, {
+    "path": "tables/data",
+    "component": DataTableComponent
   }
 ];
 
