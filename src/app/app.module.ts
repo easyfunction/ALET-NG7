@@ -11,6 +11,7 @@ import { UiModule } from './ui/ui.module';
 import { FormsModule } from './forms/forms.module';
 import { TablesModule } from './tables/tables.module';
 import { CalendarModule } from './calendar/calendar.module';
+import { MailboxModule } from './mailbox/mailbox.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CalendarModule } from './calendar/calendar.module';
     UiModule,
     FormsModule,
     TablesModule,
-    CalendarModule
+    CalendarModule,
+    MailboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

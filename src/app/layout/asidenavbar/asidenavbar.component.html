@@ -196,16 +196,35 @@
           </span>
         </a>
       </li>
-      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-        <a routerLink="/mailbox/mailbox">
-          <i class="fa fa-envelope"></i>
+      <li class="treeview" routerLinkActive="active menu-open" [routerLinkActiveOptions]="{exact: true}">
+        <a href="#">
+          <i class="fa fa-table"></i>
           <span>Mailbox</span>
           <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
             <small class="label pull-right bg-yellow">12</small>
             <small class="label pull-right bg-green">16</small>
             <small class="label pull-right bg-red">5</small>
           </span>
         </a>
+        <ul class="treeview-menu">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/mailbox/inbox">
+              <i class="fa fa-circle-o"></i> Inbox
+              <span class="pull-right-container">
+                <span class="label label-primary pull-right">12</span>
+              </span>
+            </a>
+          </li>
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/mailbox/compose">
+              <i class="fa fa-circle-o"></i> Compose</a>
+          </li>
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/mailbox/read">
+              <i class="fa fa-circle-o"></i> Read</a>
+          </li>
+        </ul>
       </li>
       <li class="treeview">
         <a href="#">

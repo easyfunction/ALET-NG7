@@ -19,6 +19,9 @@ import { EditorFormComponent } from './forms/editor-form/editor-form.component';
 import { SimpleTableComponent } from './tables/simple-table/simple-table.component';
 import { DataTableComponent } from './tables/data-table/data-table.component';
 import { CalendarComponent } from './calendar/calendar/calendar.component';
+import { InboxComponent } from './mailbox/inbox/inbox.component';
+import { ComposeComponent } from './mailbox/compose/compose.component';
+import { ReadComponent } from './mailbox/read/read.component';
 
 const routes: Routes = [
   {
@@ -82,6 +85,15 @@ const routes: Routes = [
   }, {
     "path": "calendar/calendar",
     "component": CalendarComponent
+  }, {
+    "path": "mailbox/inbox",
+    "component": InboxComponent
+  }, {
+    "path": "mailbox/compose",
+    "component": ComposeComponent
+  }, {
+    "path": "mailbox/read",
+    "component": ReadComponent
   }
 ];
 
